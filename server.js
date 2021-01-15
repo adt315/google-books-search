@@ -1,16 +1,21 @@
 const express = require("express");
+const path = require("path");
 const mongoose = require("mongoose");
 // const routes = require("./routes");
 const app = express();
-const port = process.env.port || 3001;
+const PORT = process.env.PORT || 3000;
 
-app.use(express.urlencoded({extended:true}));
+//Define middleware
+app.use(express.urlencoded({ extended:true }));
 app.use(express.json());
+
+
+//API routes
 
 // app.use(routes);
 
 
 
-app.listen(port, ()=> {
-    console.log(`Server started on ${port}`);
+app.listen(PORT, () => {
+    console.log(`Server started on ${PORT}`);
 })
