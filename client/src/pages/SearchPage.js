@@ -2,16 +2,16 @@ import React from "react";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
+import Search from "../components/Search";
 
-function Search() {
+function SearchPage() {
   return (
     <div>
-        <h1></h1>
-        <h2></h2>
+      <Search />
       <Container style={{ marginTop: 30 }}>
         <Row>
           <Col size="md-12">
-            <h1></h1>
+            
           </Col>
         </Row>
         <Row>
@@ -25,4 +25,4 @@ function Search() {
   );
 }
 
-export default Search;
+export default SearchPage;
