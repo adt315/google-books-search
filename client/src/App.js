@@ -1,8 +1,10 @@
 import React from "react";
-// import ReactDOM from "react-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Wrapper from "./components/Wrapper";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import Search from "./pages/Search";
+import Saved from "./pages/Saved";
+
 
 
 function App() {
@@ -11,11 +13,9 @@ function App() {
       <div>
         <Navbar />
         <Wrapper>
-          {/* <Route exact path="/" component={About} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/portfolio" component={Portfolio} />
-          <Route exact path="/contact" component={Contact} />
-          <Route exact path="/resume" component={Resume} /> */}
+          <Route exact path="/" component={Search} />
+          <Route exact path="/about" component={Search} />
+          <Route exact path="/saved" component={Saved} />
         </Wrapper>
       </div>
     </Router>
