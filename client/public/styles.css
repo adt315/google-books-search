@@ -1,0 +1,12 @@
+nav.navbar.navbar-default {
+    margin-bottom: 0;
+  }
+  
+.navbar {
+    background-color: rgb(255, 205, 189);
+}
+
+.wrapper {
+  min-height: 73%; 
+  padding-bottom: 100px;
+}
