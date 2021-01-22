@@ -12,12 +12,6 @@ function Saved() {
         <Row>
           <Col size="md-12">
             <SavedBooks />
-
-          </Col>
-        </Row>
-        <Row>
-          <Col size="md-12">
-          <p></p>
           </Col>
         </Row>
       </Container>

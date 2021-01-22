@@ -16,13 +16,6 @@ function SearchPage() {
         <Row>
           <Col size="md-12">
             <Results />
-            
-          </Col>
-        </Row>
-        <Row>
-          <Col size="md-12">
-            <p>
-            </p>
           </Col>
         </Row>
       </Container>
