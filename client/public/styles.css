@@ -4,8 +4,10 @@
 
 body {
   background-color: #d6d6d2;
-}
+  font-family: "McLaren", cursive;
+  color: rgb(20, 20, 77);
 
+}
 
 nav.navbar.navbar-default {
     margin-bottom: 0;
@@ -40,9 +42,25 @@ a {
   font-size: 20px;
 }
 
-
 nav ul li {
   list-style: none; 
   display: inline-block;
   padding: 0 20px;
+}
+
+form.search {
+  overflow: auto;
+  margin-bottom: 10px;
+}
+
+form.search button[type="submit"] {
+  float: right;
+  margin-top: 10px;
+}
+
+button {
+  background-color: rgb(20, 20, 77);
+  width: 100px;
+  margin-top: 10px;
+  color: white;
 }
